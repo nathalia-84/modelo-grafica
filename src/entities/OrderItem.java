@@ -49,7 +49,7 @@ public class OrderItem {
         return "Itens do pedido:\n" +
                 getProduct().getName() + ", " +
                 String.format("%.2f", price) + ", " +
-                "Quantity: " + quantity + ", " +
+                "Quantidade: " + quantity + ", " +
                 "Subtotal: " + String.format("%.2f",subTotal());
     }
 }
