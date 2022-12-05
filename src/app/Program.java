@@ -35,7 +35,7 @@ public class Program {
 
         Order order = new Order(new Date(), status, client);
 
-        System.out.print("Quantos itens o produto vai ter? ");
+        System.out.println("Quantos itens o produto vai ter? ");
         int N = sc.nextInt();
         for (int i = 0; i < N; i++) {
             System.out.println("Insira #" + (i+1) + " item:");
